@@ -98,9 +98,9 @@ class _DoubleInputState extends BaseState<DoubleInput> {
           style: TextStyle(
               fontSize: dynamicWidth(ApplicationConstants.TEXT_HEADER_S)),
           decoration: InputDecoration(
-              hintText: widget.placeholder1,
+              hintText: widget.placeholder2,
               hintStyle: TextStyle(color: grey),
-              prefixIcon: widget.icon1,
+              prefixIcon: widget.icon2,
               contentPadding: EdgeInsets.symmetric(
                   horizontal: dynamicWidth(0.04),
                   vertical: dynamicHeight(0.022)),
@@ -119,7 +119,7 @@ class _DoubleInputState extends BaseState<DoubleInput> {
     return Container(
       width: dynamicWidth(InputConstants.DOUBLE_INPUT_ONLY_WIDTH),
       height: dynamicHeight(InputConstants.DOUBLE_INPUT_ONLY_HEIGHT),
-      child: textField1(),
+      child: textField2(),
     );
   }
 

@@ -1,12 +1,11 @@
-import 'package:ecommerceflutterapp/core/base/widgets/base_widget.dart';
-import 'package:ecommerceflutterapp/core/components/appbars/appbar_profile.dart';
-import 'package:ecommerceflutterapp/core/components/avatars/avatar_large.dart';
-import 'package:ecommerceflutterapp/core/components/texts/text_medium.dart';
-import 'package:ecommerceflutterapp/core/components/texts/text_small.dart';
 import 'package:flutter/material.dart';
 
 import '../../core/base/state/base_state.dart';
-import '../../core/components/appbars/appbar_cart.dart';
+import '../../core/base/widgets/base_widget.dart';
+import '../../core/components/appbars/appbar_profile.dart';
+import '../../core/components/avatars/avatar_large.dart';
+import '../../core/components/texts/text_medium.dart';
+import '../../core/components/texts/text_small.dart';
 import '../../core/init/theme/colors.dart';
 
 class ProfileView extends StatefulWidget {

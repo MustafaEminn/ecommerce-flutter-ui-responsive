@@ -1,14 +1,14 @@
-import 'package:ecommerceflutterapp/core/base/state/base_state.dart';
-import 'package:ecommerceflutterapp/core/base/widgets/base_widget.dart';
-import 'package:ecommerceflutterapp/core/components/appbars/appbar_cart.dart';
-import 'package:ecommerceflutterapp/core/components/buttons/button_large_custom.dart';
-import 'package:ecommerceflutterapp/core/components/texts/text_medium.dart';
-import 'package:ecommerceflutterapp/core/components/texts/text_small.dart';
-import 'package:ecommerceflutterapp/core/constants/app/app_constants.dart';
-import 'package:ecommerceflutterapp/core/constants/component/button_constants.dart';
-import 'package:ecommerceflutterapp/core/init/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
+import '../../core/base/state/base_state.dart';
+import '../../core/components/appbars/appbar_cart.dart';
+import '../../core/components/buttons/button_large_custom.dart';
+import '../../core/components/texts/text_medium.dart';
+import '../../core/components/texts/text_small.dart';
+import '../../core/constants/app/app_constants.dart';
+import '../../core/constants/component/button_constants.dart';
+import '../../core/init/theme/colors.dart';
 
 class ShoppingCartView extends StatefulWidget {
   @override

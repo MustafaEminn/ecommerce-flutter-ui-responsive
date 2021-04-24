@@ -1,17 +1,14 @@
-import 'package:ecommerceflutterapp/core/base/state/base_state.dart';
-import 'package:ecommerceflutterapp/core/base/widgets/base_widget.dart';
-import 'package:ecommerceflutterapp/core/components/appbars/appbar_back_cart.dart';
-import 'package:ecommerceflutterapp/core/components/buttons/button_large.dart';
-import 'package:ecommerceflutterapp/core/components/texts/text_custom.dart';
-import 'package:ecommerceflutterapp/core/components/texts/text_medium.dart';
-import 'package:ecommerceflutterapp/core/components/texts/text_small.dart';
-import 'package:ecommerceflutterapp/core/components/texts/text_x_large.dart';
-import 'package:ecommerceflutterapp/core/components/texts/text_x_small.dart';
-import 'package:ecommerceflutterapp/core/constants/app/app_constants.dart';
-import 'package:ecommerceflutterapp/core/init/theme/colors.dart';
-import 'package:ecommerceflutterapp/view/product_details/features/product_features.dart';
-import 'package:ecommerceflutterapp/view/product_details/overview/product_overview.dart';
 import 'package:flutter/material.dart';
+
+import '../../../core/base/state/base_state.dart';
+import '../../../core/components/appbars/appbar_back_cart.dart';
+import '../../../core/components/texts/text_custom.dart';
+import '../../../core/components/texts/text_medium.dart';
+import '../../../core/components/texts/text_x_large.dart';
+import '../../../core/constants/app/app_constants.dart';
+import '../../../core/init/theme/colors.dart';
+import '../features/product_features.dart';
+import '../overview/product_overview.dart';
 
 class ProductDetails extends StatefulWidget {
   @override

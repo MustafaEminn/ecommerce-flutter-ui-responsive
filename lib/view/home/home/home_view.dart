@@ -1,4 +1,3 @@
-import 'package:ecommerceflutterapp/core/components/lists/products_fit_horizontal_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
@@ -6,9 +5,9 @@ import '../../../core/base/state/base_state.dart';
 import '../../../core/base/widgets/base_widget.dart';
 import '../../../core/components/appbars/appbar_base.dart';
 import '../../../core/components/buttons/button_text.dart';
-import '../../../core/components/card/card_fit_large.dart';
 import '../../../core/components/card/card_large.dart';
 import '../../../core/components/card/gray_card.dart';
+import '../../../core/components/lists/products_fit_horizontal_list.dart';
 import '../../../core/components/lists/products_horizontal_list.dart';
 import '../../../core/components/textfields/search_input.dart';
 import '../../../core/components/texts/text_large.dart';
